@@ -1,0 +1,8 @@
+package pageObjects;
+
+public interface SignUpPageObject {
+    String inputEmailLink ="//android.widget.EditText[@text=\"Email\"]";
+    String inputPasswordLink="//android.widget.EditText[@text=\"Password\"]";
+    String signUpBtnLink ="//android.view.ViewGroup[@content-desc=\"Sign up\"]";
+    String loginUpBtnLink="//android.widget.TextView[@text=\"Log in\"]";
+}
