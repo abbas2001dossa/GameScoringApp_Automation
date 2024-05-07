@@ -8,10 +8,6 @@ import pageObjects.WelcomePageObject;
 
 public class WelcomePage extends BaseClass{
 
-    public WelcomePage() {
-        super();  // Calling the base class constructor explicitly
-    }
-
     private final By nextBtnXpath =new By.ByXPath(WelcomePageObject.nextBtnLink);
     private final By skipBtnXpath =new By.ByXPath(WelcomePageObject.skipBtnLink);
 
@@ -21,7 +17,7 @@ public class WelcomePage extends BaseClass{
         driver.findElement(nextBtnXpath).click();
     }
 
-    public void SkipWelcome(){
+    public void SkipWelcome()  {
         driver.findElement(skipBtnXpath).click();
     }
 }

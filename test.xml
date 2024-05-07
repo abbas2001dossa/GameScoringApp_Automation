@@ -4,11 +4,25 @@
 <!--    <listeners>-->
 <!--        <listener class-name="utils.SuiteListener"/>-->
 <!--    </listeners>-->
-    <test thread-count="5" name="Welcome Page Test Cases">
+<!--    <test thread-count="5" name="Welcome Page Test Cases">-->
 <!--        <parameter name="browser" value="chrome"/>-->
+<!--        <classes>-->
+<!--            <class name="tests.WelcomePageTestCases"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test thread-count="5" name="Login Page Test Cases">
+        <parameter name="email" value="Testing@gmail.com"/>
+        <parameter name="password" value="Fast123"/>
+        <parameter name="invalidEmail" value="Test@gmail.com"/>
+        <parameter name="invalidPassword" value="fast"/>
+        <parameter name="blankPassword" value=""/>
+        <parameter name="blankEmail" value=""/>
         <classes>
-            <class name="tests.WelcomePageTestCases"/>
+            <class name="tests.LoginPageTestCases"/>
         </classes>
     </test>
+
+
 
 </suite>
