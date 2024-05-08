@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c953edd-8748-439e-b2e5-075f94c404af" name="Changes" comment="Created POM structure_5/4/2024">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/AddPlayerPageTestCases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/HomePageTestCases.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/baseClass/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baseClass/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/LoginPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/LoginPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/WelcomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/WelcomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginPageTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginPageTestCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/AddPlayerPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/AddPlayerPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/PlayerListPageObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AddPlayerPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AddPlayerPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PlayersListPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,18 +51,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.HelloApplication.executor": "Run",
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.D:/GameScoringApp_Automation/test.xml.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/GameScoringApp_Automation"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.D:/GameScoringApp_Automation/test.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginPageTestCases.loginWithBlankCredentials.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/GameScoringApp_Automation&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="TestNG.D:/GameScoringApp_Automation/test.xml">
     <configuration name="D:/GameScoringApp_Automation/test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="GameScoringApp_Automation" />
@@ -124,12 +129,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/baseClass/BaseClass.java</url>
-          <line>18</line>
+          <line>27</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/baseClass/BaseClass.java</url>
-          <line>8</line>
+          <line>14</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

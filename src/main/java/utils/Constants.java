@@ -1,4 +1,7 @@
 package utils;
 
-public class Constants {
+public interface Constants
+{
+    String email ="Testing@gmail.com";
+    String password = "Fast123";
 }

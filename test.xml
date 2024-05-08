@@ -11,18 +11,35 @@
 <!--        </classes>-->
 <!--    </test>-->
 
+<!--    <test thread-count="5" name="Login Page Test Cases">-->
+<!--        <parameter name="email" value="Testing@gmail.com"/>-->
+<!--        <parameter name="password" value="Fast123"/>-->
+<!--        <parameter name="invalidEmail" value="Test@gmail.com"/>-->
+<!--        <parameter name="invalidPassword" value="fast"/>-->
+<!--        <parameter name="blankPassword" value=""/>-->
+<!--        <parameter name="blankEmail" value=""/>-->
+<!--        <classes>-->
+<!--            <class name="tests.LoginPageTestCases"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+<!--    <test thread-count="5" name="Login Page Test Cases">-->
+<!--        <parameter name="email" value="Testing@gmail.com"/>-->
+<!--        <parameter name="password" value="Fast123"/>-->
+<!--        <classes>-->
+<!--            <class name="tests.HomePageTestCases"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
     <test thread-count="5" name="Login Page Test Cases">
-        <parameter name="email" value="Testing@gmail.com"/>
-        <parameter name="password" value="Fast123"/>
-        <parameter name="invalidEmail" value="Test@gmail.com"/>
-        <parameter name="invalidPassword" value="fast"/>
-        <parameter name="blankPassword" value=""/>
-        <parameter name="blankEmail" value=""/>
+        <parameter name="playerName" value="Saleem"/>
+        <parameter name="playerNameDel" value="Saleem"/>
         <classes>
-            <class name="tests.LoginPageTestCases"/>
+            <class name="tests.AddPlayerPageTestCases"/>
         </classes>
     </test>
-
 
 
 </suite>
