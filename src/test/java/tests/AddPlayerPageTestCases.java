@@ -40,16 +40,31 @@ public class AddPlayerPageTestCases {
 //
 //    }
 
+//    @Test
+//    @Parameters("playerNameDel")
+//    public void DeletePLayer(String playerName){
+//        try{
+//            BaseClass.Login();
+//            homePage.openPlayers();
+//            addPlayerPage.deletePlayer(playerName);
+//            addPlayerPage.validatePlayerNotPresent(playerName);
+//            Thread.sleep(4000);
+//        }
+//        catch (Exception e){}
+//
+//    }
+
     @Test
-    @Parameters("playerNameDel")
-    public void DeletePLayer(String playerName){
+    @Parameters({"existingPlayerName","playerName"})
+    public void EditPLayer(String existingPlayerName,String playerName){
         try{
             BaseClass.Login();
             homePage.openPlayers();
-            addPlayerPage.deletePlayer(playerName);
-            Thread.sleep(3000);
+            addPlayerPage.editPLayer(existingPlayerName,playerName);
+            Thread.sleep(4000);
         }
         catch (Exception e){}
 
     }
+
 }

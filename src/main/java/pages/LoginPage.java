@@ -22,5 +22,9 @@ public class LoginPage extends BaseClass
         driver.findElement(loginBtnLink).click();
     }
 
+    public void goToSignup (){
+        driver.findElement(signUpBtnLink).click();
+    }
+
 
 }

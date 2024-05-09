@@ -2,6 +2,7 @@ package pages;
 
 import baseClass.BaseClass;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -44,29 +45,16 @@ public class AddPlayerPage extends BaseClass
         Assert.assertNull(driver.findElement(new By.ByXPath("//android.widget.TextView[@text=\\\""+playerName+"\\\"]")));
     }
 
-    public void editPLayer (String newPlayerName){
-
+    // not working
+    public void editPLayer (String existingPLayerName, String newPlayerName){
+        driver.findElement(editBtnXpath).click();
+        driver.findElement(new By.ByXPath("//android.widget.TextView[@text=\""+existingPLayerName+"\"]")).sendKeys("\b");
+        driver.findElement(new By.ByXPath("//android.widget.TextView[@text=\""+existingPLayerName+"\"]")).sendKeys(newPlayerName);
+        driver.findElement(editConfirmXpath).click();
     }
 
     public void deletePlayer (String playerName) {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5)); // 10-second timeout
-
-        WebElement targetElement = wait.until(
-                ExpectedConditions.presenceOfElementLocated(
-                        By.xpath("//android.widget.EditText[@text='" + playerName + "']")
-                )
-        );
-
-        // Navigate to the parent container
-        WebElement parentContainer = targetElement.findElement(By.xpath("./..")); // Go up one level
-
-        // Locate the delete button as a sibling within the same container
-        WebElement deleteButton = parentContainer.findElement(
-                By.xpath("./following-sibling::android.view.ViewGroup/android.widget.ImageView") // Navigate to sibling
-        );
-        System.out.println("Delete button found: " + deleteButton != null); // Debug print
-
-        deleteButton.click();
+        driver.findElement(deleteBtnXPath).click();
         driver.findElement(yesConfirmationXpath).click();
     }
 }

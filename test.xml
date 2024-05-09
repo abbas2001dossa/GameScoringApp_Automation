@@ -24,7 +24,7 @@
 <!--    </test>-->
 
 
-<!--    <test thread-count="5" name="Login Page Test Cases">-->
+<!--    <test thread-count="5" name="Home Page Test Cases">-->
 <!--        <parameter name="email" value="Testing@gmail.com"/>-->
 <!--        <parameter name="password" value="Fast123"/>-->
 <!--        <classes>-->
@@ -33,13 +33,21 @@
 <!--    </test>-->
 
 
-    <test thread-count="5" name="Login Page Test Cases">
-        <parameter name="playerName" value="Saleem"/>
-        <parameter name="playerNameDel" value="Saleem"/>
-        <classes>
-            <class name="tests.AddPlayerPageTestCases"/>
-        </classes>
+<!--    <test thread-count="5" name="Add Player Page Test Cases">-->
+<!--        <parameter name="playerName" value="Saleem"/>-->
+<!--        <parameter name="playerNameDel" value="Saleem"/>-->
+<!--        <parameter name="newPlayerName" value="SaleemEdited"/>-->
+<!--        <parameter name="existingPlayerName" value="Saleem"/>-->
+<!--        <classes>-->
+<!--            <class name="tests.AddPlayerPageTestCases"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test thread-count="5" name="Signup Page Test Cases">
+            <parameter name="email" value="Testing2@gmail.com"/>
+            <parameter name="password" value="Fast123"/>
+            <classes>
+                <class name="tests.SignUpPageTestCases"/>
+            </classes>
     </test>
-
-
 </suite>
