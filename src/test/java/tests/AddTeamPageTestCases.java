@@ -13,7 +13,6 @@ import pages.HomePage;
 import pages.WelcomePage;
 
 public class AddTeamPageTestCases {
-    WelcomePage welcomePage = new WelcomePage();
     HomePage homePage = new HomePage();
     AddTeamPage addTeamPage = new AddTeamPage();
     AddPlayerPage playerPage = new AddPlayerPage();
@@ -33,12 +32,13 @@ public class AddTeamPageTestCases {
     public void addTeam(String teamName, String player1Name,String player2Name){
         try{
             BaseClass.Login();
-            homePage.openPlayers();
-            playerPage.addPlayer(player1Name);
-            playerPage.addPlayer(player2Name);
-            playerPage.goBack();
-            homePage.openTeams();
-            addTeamPage.AddTeam(teamName,player1Name,player2Name);
+            homePage.resetData();
+//            homePage.openPlayers();
+//            playerPage.addPlayer(player1Name);
+//            playerPage.addPlayer(player2Name);
+//            playerPage.goBack();
+//            homePage.openTeams();
+//            addTeamPage.AddTeam(teamName,player1Name,player2Name);
             Thread.sleep(3000);
         }
         catch (Exception e){}
