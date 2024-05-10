@@ -7,4 +7,6 @@ public interface SignUpPageObject {
     String loginUpBtnLink="//android.widget.TextView[@text=\"Log in\"]";
     String signupTextLink ="//android.widget.TextView[@text=\"Sign Up\"]";
     String signupText = "Sign Up";
+    String errorMsgXpath="//android.widget.TextView[@resource-id=\"toastText2\"]";
+    String errorMsg = "Invalid Email ";
 }

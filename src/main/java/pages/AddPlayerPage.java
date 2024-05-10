@@ -24,6 +24,7 @@ public class AddPlayerPage extends BaseClass
     private final By noConfirmationXpath = new By.ByXPath(AddPlayerPageObject.NoConfirmationMsgXpath);
     private final By editConfirmXpath = new By.ByXPath(AddPlayerPageObject.editConfirmXpath);
     private final By elementXpath = new By.ByXPath(AddPlayerPageObject.element);
+    private final By goBack = new By.ByXPath("//android.widget.TextView[@text=\"\uE61C\"]");
 
     public void addPlayer (String playerName){
         driver.findElement(addPlayerBtnXpath).click();
@@ -56,5 +57,9 @@ public class AddPlayerPage extends BaseClass
     public void deletePlayer (String playerName) {
         driver.findElement(deleteBtnXPath).click();
         driver.findElement(yesConfirmationXpath).click();
+    }
+
+    public void goBack(){
+        driver.findElement(goBack).click();
     }
 }

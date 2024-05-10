@@ -43,11 +43,23 @@
 <!--        </classes>-->
 <!--    </test>-->
 
-    <test thread-count="5" name="Signup Page Test Cases">
-            <parameter name="email" value="Testing2@gmail.com"/>
-            <parameter name="password" value="Fast123"/>
-            <classes>
-                <class name="tests.SignUpPageTestCases"/>
-            </classes>
+<!--    <test thread-count="5" name="Signup Page Test Cases">-->
+<!--            <parameter name="email" value="Testing2@gmail.com"/>-->
+<!--            <parameter name="password" value="Fast123"/>-->
+<!--            <parameter name="InPassword" value="Fast123"/>-->
+<!--            <parameter name="InEmail" value="abbasdossa"/>-->
+<!--            <classes>-->
+<!--                <class name="tests.SignUpPageTestCases"/>-->
+<!--            </classes>-->
+<!--    </test>-->
+
+
+    <test thread-count="5" name="Add Team Page Test Cases">
+        <parameter name="teamName" value="TTEam"/>
+        <parameter name="player1Name" value="Saqib"/>
+        <parameter name="player2Name" value="Ahmed"/>
+        <classes>
+            <class name="tests.AddTeamPageTestCases"/>
+        </classes>
     </test>
 </suite>

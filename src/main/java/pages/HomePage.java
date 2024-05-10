@@ -2,8 +2,15 @@ package pages;
 
 import baseClass.BaseClass;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.interactions.Pause;
+import org.openqa.selenium.interactions.PointerInput;
+import org.openqa.selenium.interactions.Sequence;
 import pageObjects.HomePageObject;
 import pageObjects.LoginPageObject;
+
+import java.time.Duration;
+import java.util.Collections;
 
 public class HomePage extends BaseClass
 {
@@ -37,5 +44,7 @@ public class HomePage extends BaseClass
     public void openTeams (){
         driver.findElement(teamsBtnXpath).click();
     }
+
+
 
 }
