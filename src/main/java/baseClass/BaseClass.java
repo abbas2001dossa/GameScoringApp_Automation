@@ -15,6 +15,10 @@ import pages.WelcomePage;
 import utils.AppiumDriver;
 import utils.Constants;
 
+import java.io.IOException;
+
+import static utils.ScreenShot.capture;
+
 public class BaseClass {
 
     public static AndroidDriver driver ;
@@ -22,15 +26,14 @@ public class BaseClass {
     private final static By inputEmailXpath =new By.ByXPath(LoginPageObject.inputEmailLink);
     private final static By inputPasswordXpath = new By.ByXPath(LoginPageObject.inputPasswordLink);
     private final static By loginBtnLink = new By.ByXPath(LoginPageObject.loginBtnLink);
-    private static ExtentTest test;
-    private static ExtentReports report;
+    public static ExtentTest test;
+    public static ExtentReports report;
 
 
 
     public static void setUp() {
         driver = AppiumDriver.getAppiumDriver();
         report = new ExtentReports(System.getProperty("user.dir")+"ExtentReportResults.html");
-        test = report.startTest("ExtentDemo");
     }
 
 
@@ -42,14 +45,14 @@ public class BaseClass {
         }
     }
 
-    public static void Login ()
-    {
+    public static void Login () throws IOException {
 
         driver.findElement(skipBtnXpath).click();
         driver.findElement(inputEmailXpath).sendKeys(Constants.email);
         driver.findElement(inputPasswordXpath).sendKeys(Constants.password);
         driver.findElement(loginBtnLink).click();
-        test.log(LogStatus.PASS,"Login Conducted Successfully");
+//        test.log(LogStatus.PASS,"Login Conducted Successfully");
+        test.log(LogStatus.PASS,test.addScreenCapture(capture(driver))+ "Login Conducted Successfully");
     }
 
 }

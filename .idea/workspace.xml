@@ -5,16 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c953edd-8748-439e-b2e5-075f94c404af" name="Changes" comment="Created POM structure_5/4/2024">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/StandingsPageTestCases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/AddMatchScreenObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/AddMatchScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ScreenShot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/AddMatchPageTestCases.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/baseClass/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baseClass/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/StandingsPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/StandingsPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/StandingsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/StandingsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/MobileCapabilityTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/MobileCapabilityTypes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AddPlayerPageTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AddPlayerPageTestCases.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AddTeamPageTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AddTeamPageTestCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/AddIndividualPageObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/AddTeamMatchObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/MatchListPageObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/PlayerStandingsPageObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/TeamListPageObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/TeamStandingsPageObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AddIndividualMatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AddTeamMatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/StandingsPageTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/StandingsPageTestCases.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,12 +137,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/baseClass/BaseClass.java</url>
-          <line>34</line>
+          <line>37</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/baseClass/BaseClass.java</url>
-          <line>17</line>
+          <line>21</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

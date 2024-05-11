@@ -66,15 +66,23 @@
 <!--        </classes>-->
 <!--    </test>-->
 
+<!--        <test thread-count="5" name="Standings Page Test Cases">-->
+<!--            <parameter name="playerName" value="one"/>-->
+<!--            <parameter name="player2Name" value="two"/>-->
+<!--            <parameter name="player3Name" value="three"/>-->
+<!--            <parameter name="player4Name" value="four"/>-->
+<!--            <classes>-->
+<!--                <class name="tests.StandingsPageTestCases"/>-->
+<!--            </classes>-->
+<!--        </test>-->
+
         <test thread-count="5" name="Standings Page Test Cases">
-            <parameter name="playerName" value="one"/>
-            <parameter name="player2Name" value="two"/>
-            <parameter name="player3Name" value="three"/>
-            <parameter name="player4Name" value="four"/>
+            <parameter name="team1Name" value="Tone"/>
+            <parameter name="team2Name" value="Ttwo"/>
+
             <classes>
-                <class name="tests.StandingsPageTestCases"/>
+                <class name="tests.AddMatchPageTestCases"/>
             </classes>
         </test>
-
 
 </suite>
