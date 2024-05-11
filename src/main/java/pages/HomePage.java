@@ -25,7 +25,7 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElemen
 
 public class HomePage extends BaseClass
 {
-    private final By sideNavBtnXpath =new By.ByXPath(HomePageObject.sideNavButtonLink);
+    private final By sideNavBtnXpath =new By.ById("00000000-0000-0318-ffff-ffff00000049");
     private final By logoutBtnXpath = new By.ByXPath(HomePageObject.logoutBtnLink);
     private final By resetDataBtnXpath = new By.ByXPath(HomePageObject.resetDataBtnLink);
     private final By sideNavXpath = new By.ByXPath(HomePageObject.sidenavLink);

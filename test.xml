@@ -34,7 +34,10 @@
 
 
 <!--    <test thread-count="5" name="Add Player Page Test Cases">-->
-<!--        <parameter name="playerName" value="Saleem"/>-->
+<!--        <parameter name="playerName" value="one"/>-->
+<!--            <parameter name="player2Name" value="two"/>-->
+<!--            <parameter name="player3Name" value="three"/>-->
+<!--            <parameter name="player4Name" value="four"/>-->
 <!--        <parameter name="playerNameDel" value="Saleem"/>-->
 <!--        <parameter name="newPlayerName" value="SaleemEdited"/>-->
 <!--        <parameter name="existingPlayerName" value="Saleem"/>-->
@@ -54,12 +57,24 @@
 <!--    </test>-->
 
 
-    <test thread-count="5" name="Add Team Page Test Cases">
-        <parameter name="teamName" value="TTEam"/>
-        <parameter name="player1Name" value="Saqib"/>
-        <parameter name="player2Name" value="Ahmed"/>
-        <classes>
-            <class name="tests.AddTeamPageTestCases"/>
-        </classes>
-    </test>
+<!--    <test thread-count="5" name="Add Team Page Test Cases">-->
+<!--        <parameter name="teamName" value="TTEam"/>-->
+<!--        <parameter name="player1Name" value="Saqib"/>-->
+<!--        <parameter name="player2Name" value="Ahmed"/>-->
+<!--        <classes>-->
+<!--            <class name="tests.AddTeamPageTestCases"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+        <test thread-count="5" name="Standings Page Test Cases">
+            <parameter name="playerName" value="one"/>
+            <parameter name="player2Name" value="two"/>
+            <parameter name="player3Name" value="three"/>
+            <parameter name="player4Name" value="four"/>
+            <classes>
+                <class name="tests.StandingsPageTestCases"/>
+            </classes>
+        </test>
+
+
 </suite>

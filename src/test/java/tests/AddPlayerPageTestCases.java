@@ -27,13 +27,16 @@ public class AddPlayerPageTestCases {
 
 // add player works fine
 //    @Test
-//    @Parameters("playerName")
-//    public void AddPLayer(String playerName){
+//    @Parameters({"playerName","player2Name","player3Name","player4Name"})
+//    public void AddPLayer(String playerName, String player2Name , String player3Name , String player4Name){
 //        try{
 //            BaseClass.Login();
 //            homePage.openPlayers();
 //            addPlayerPage.addPlayer(playerName);
 //            addPlayerPage.validatePlayerPresent(playerName);
+//            addPlayerPage.addPlayer(player2Name);
+//            addPlayerPage.addPlayer(player3Name);
+//            addPlayerPage.addPlayer(player4Name);
 //            Thread.sleep(3000);
 //        }
 //        catch (Exception e){}

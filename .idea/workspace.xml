@@ -5,17 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c953edd-8748-439e-b2e5-075f94c404af" name="Changes" comment="Created POM structure_5/4/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/StandingsPageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/StandingsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/StandingsPageTestCases.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/HomePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/HomePageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AddTeamPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AddTeamPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baseClass/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baseClass/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/StandingsPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/StandingsPageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PlayerStandingsPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/TeamStandingsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/StandingsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/StandingsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utils/MobileCapabilityTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/MobileCapabilityTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AddPlayerPageTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AddPlayerPageTestCases.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/AddTeamPageTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AddTeamPageTestCases.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/HomePageTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/HomePageTestCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -51,19 +51,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.D:/GameScoringApp_Automation/test.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginPageTestCases.loginWithBlankCredentials.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/AutomatedTesting_appium&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.HelloApplication.executor": "Run",
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.D:/GameScoringApp_Automation/test.xml.executor": "Run",
+    "TestNG.LoginPageTestCases.loginWithBlankCredentials.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/hp/Downloads/extentreports-2.41.2.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="TestNG.D:/GameScoringApp_Automation/test.xml">
     <configuration name="D:/GameScoringApp_Automation/test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="GameScoringApp_Automation" />
@@ -129,12 +132,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/baseClass/BaseClass.java</url>
-          <line>27</line>
+          <line>34</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/baseClass/BaseClass.java</url>
-          <line>14</line>
+          <line>17</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
